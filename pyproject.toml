@@ -1,0 +1,14 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "yt-dlp-corrieretv"
+version = "2026.9.27"
+description = "yt-dlp plugin: download full videos from video.corriere.it (Corriere TV)"
+readme = "README.md"
+license = { text = "Unlicense" }
+requires-python = ">=3.10"
+
+[tool.hatch.build.targets.wheel]
+packages = ["yt_dlp_plugins"]
